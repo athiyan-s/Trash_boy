@@ -1,0 +1,37 @@
+[1.169s] Invoking command in '/home/athiyan_sankar/trash_boy/src/trash_boy': PYTHONPATH=/home/athiyan_sankar/trash_boy/build/trash_boy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trash_boy build --build-base /home/athiyan_sankar/trash_boy/build/trash_boy/build install --record /home/athiyan_sankar/trash_boy/build/trash_boy/install.log --single-version-externally-managed install_data
+[1.372s] /home/athiyan_sankar/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.372s]   warnings.warn(msg)
+[1.551s] running egg_info
+[1.579s] writing ../../build/trash_boy/trash_boy.egg-info/PKG-INFO
+[1.580s] writing dependency_links to ../../build/trash_boy/trash_boy.egg-info/dependency_links.txt
+[1.580s] writing entry points to ../../build/trash_boy/trash_boy.egg-info/entry_points.txt
+[1.581s] writing requirements to ../../build/trash_boy/trash_boy.egg-info/requires.txt
+[1.581s] writing top-level names to ../../build/trash_boy/trash_boy.egg-info/top_level.txt
+[1.641s] reading manifest file '../../build/trash_boy/trash_boy.egg-info/SOURCES.txt'
+[1.643s] writing manifest file '../../build/trash_boy/trash_boy.egg-info/SOURCES.txt'
+[1.643s] running build
+[1.643s] running build_py
+[1.644s] copying trash_boy/object_tracker.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy
+[1.644s] copying trash_boy/mecanum_teleop.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy
+[1.644s] copying trash_boy/__init__.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy
+[1.644s] copying trash_boy/object_follower.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy
+[1.645s] running install
+[1.649s] running install_lib
+[1.679s] running install_data
+[1.679s] copying resource/trash_boy -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/ament_index/resource_index/packages
+[1.679s] copying package.xml -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy
+[1.680s] copying launch/finelaunch.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/launch
+[1.680s] copying launch/object_tracking.launch.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/launch
+[1.680s] copying launch/robot_gazebo.launch.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/launch
+[1.680s] copying urdf/model.urdf -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/urdf
+[1.681s] copying urdf/fine_model.urdf -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/urdf
+[1.681s] copying config/slam_toolbox.yaml -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/config
+[1.682s] copying config/mecanum_controller.yaml -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/config
+[1.682s] running install_egg_info
+[1.713s] removing '/home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy-0.0.0-py3.10.egg-info' (and everything under it)
+[1.713s] Copying ../../build/trash_boy/trash_boy.egg-info to /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy-0.0.0-py3.10.egg-info
+[1.715s] running install_scripts
+[1.775s] Installing object_follower script to /home/athiyan_sankar/trash_boy/install/trash_boy/lib/trash_boy
+[1.775s] Installing object_tracker script to /home/athiyan_sankar/trash_boy/install/trash_boy/lib/trash_boy
+[1.776s] writing list of installed files to '/home/athiyan_sankar/trash_boy/build/trash_boy/install.log'
+[1.820s] Invoked command in '/home/athiyan_sankar/trash_boy/src/trash_boy' returned '0': PYTHONPATH=/home/athiyan_sankar/trash_boy/build/trash_boy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trash_boy build --build-base /home/athiyan_sankar/trash_boy/build/trash_boy/build install --record /home/athiyan_sankar/trash_boy/build/trash_boy/install.log --single-version-externally-managed install_data

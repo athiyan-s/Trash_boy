@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: trash_boy
+Version: 0.0.0
+Summary: Mecanum wheel trash collection robot
+Maintainer: athiyan_sankar
+Maintainer-email: athiyanrae2020@mvit.edu.in
+License: Apache License 2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

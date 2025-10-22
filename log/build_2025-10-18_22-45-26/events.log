@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.001821] (trash_boy) JobQueued: {'identifier': 'trash_boy', 'dependencies': OrderedDict()}
+[0.001958] (trash_boy) JobStarted: {'identifier': 'trash_boy'}
+[0.099594] (-) TimerEvent: {}
+[0.200238] (-) TimerEvent: {}
+[0.300881] (-) TimerEvent: {}
+[0.401657] (-) TimerEvent: {}
+[0.502461] (-) TimerEvent: {}
+[0.603257] (-) TimerEvent: {}
+[0.703955] (-) TimerEvent: {}
+[0.804653] (-) TimerEvent: {}
+[0.905323] (-) TimerEvent: {}
+[1.005966] (-) TimerEvent: {}
+[1.106664] (-) TimerEvent: {}
+[1.207294] (-) TimerEvent: {}
+[1.307948] (-) TimerEvent: {}
+[1.408637] (-) TimerEvent: {}
+[1.509295] (-) TimerEvent: {}
+[1.609954] (-) TimerEvent: {}
+[1.710775] (-) TimerEvent: {}
+[1.792809] (trash_boy) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/trash_boy', 'build', '--build-base', '/home/athiyan_sankar/trash_boy/build/trash_boy/build', 'install', '--record', '/home/athiyan_sankar/trash_boy/build/trash_boy/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/athiyan_sankar/trash_boy/src/trash_boy', 'env': {'LANGUAGE': 'en_IN:en', 'USER': 'athiyan_sankar', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'OLDPWD': '/home/athiyan_sankar', 'HOME': '/home/athiyan_sankar', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/athiyan_sankar/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '1926', 'SYSTEMD_EXEC_PID': '2264', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10468', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/athiyan_sankar/trash_boy/install', 'LOGNAME': 'athiyan_sankar', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '8:13067', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'athiyan_sankar', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/athiyansankar:@/tmp/.ICE-unix/2045,unix/athiyansankar:/tmp/.ICE-unix/2045', 'INVOCATION_ID': '35bdaea9fd804899afee641d6ea17612', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZSERE3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/home/athiyan_sankar/trash_boy/install/trash_boy:/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:a21baedf-553c-47b3-be26-664296da81a4', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/athiyan_sankar/trash_boy/build/trash_boy', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/athiyan_sankar/trash_boy/build/trash_boy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages:/home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.810944] (-) TimerEvent: {}
+[1.915271] (-) TimerEvent: {}
+[2.016030] (-) TimerEvent: {}
+[2.116806] (-) TimerEvent: {}
+[2.217627] (-) TimerEvent: {}
+[2.223006] (trash_boy) StderrLine: {'line': b"/home/athiyan_sankar/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.223747] (trash_boy) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.317886] (-) TimerEvent: {}
+[2.418666] (-) TimerEvent: {}
+[2.510067] (trash_boy) StdoutLine: {'line': b'running egg_info\n'}
+[2.518889] (-) TimerEvent: {}
+[2.557503] (trash_boy) StdoutLine: {'line': b'writing ../../build/trash_boy/trash_boy.egg-info/PKG-INFO\n'}
+[2.558590] (trash_boy) StdoutLine: {'line': b'writing dependency_links to ../../build/trash_boy/trash_boy.egg-info/dependency_links.txt\n'}
+[2.559212] (trash_boy) StdoutLine: {'line': b'writing entry points to ../../build/trash_boy/trash_boy.egg-info/entry_points.txt\n'}
+[2.559747] (trash_boy) StdoutLine: {'line': b'writing requirements to ../../build/trash_boy/trash_boy.egg-info/requires.txt\n'}
+[2.560107] (trash_boy) StdoutLine: {'line': b'writing top-level names to ../../build/trash_boy/trash_boy.egg-info/top_level.txt\n'}
+[2.619155] (-) TimerEvent: {}
+[2.657433] (trash_boy) StdoutLine: {'line': b"reading manifest file '../../build/trash_boy/trash_boy.egg-info/SOURCES.txt'\n"}
+[2.660279] (trash_boy) StdoutLine: {'line': b"writing manifest file '../../build/trash_boy/trash_boy.egg-info/SOURCES.txt'\n"}
+[2.660897] (trash_boy) StdoutLine: {'line': b'running build\n'}
+[2.661284] (trash_boy) StdoutLine: {'line': b'running build_py\n'}
+[2.661740] (trash_boy) StdoutLine: {'line': b'copying trash_boy/object_tracker.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy\n'}
+[2.662227] (trash_boy) StdoutLine: {'line': b'copying trash_boy/mecanum_teleop.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy\n'}
+[2.662679] (trash_boy) StdoutLine: {'line': b'copying trash_boy/__init__.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy\n'}
+[2.662995] (trash_boy) StdoutLine: {'line': b'copying trash_boy/object_follower.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy\n'}
+[2.663662] (trash_boy) StdoutLine: {'line': b'running install\n'}
+[2.670796] (trash_boy) StdoutLine: {'line': b'running install_lib\n'}
+[2.719181] (trash_boy) StdoutLine: {'line': b'running install_data\n'}
+[2.719846] (-) TimerEvent: {}
+[2.720239] (trash_boy) StdoutLine: {'line': b'copying resource/trash_boy -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/ament_index/resource_index/packages\n'}
+[2.720817] (trash_boy) StdoutLine: {'line': b'copying package.xml -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy\n'}
+[2.721164] (trash_boy) StdoutLine: {'line': b'copying launch/finelaunch.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/launch\n'}
+[2.721614] (trash_boy) StdoutLine: {'line': b'copying launch/object_tracking.launch.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/launch\n'}
+[2.722007] (trash_boy) StdoutLine: {'line': b'copying launch/robot_gazebo.launch.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/launch\n'}
+[2.722484] (trash_boy) StdoutLine: {'line': b'copying urdf/model.urdf -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/urdf\n'}
+[2.722928] (trash_boy) StdoutLine: {'line': b'copying urdf/fine_model.urdf -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/urdf\n'}
+[2.723978] (trash_boy) StdoutLine: {'line': b'copying config/mecanum_controller.yaml -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/config\n'}
+[2.724605] (trash_boy) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.775121] (trash_boy) StdoutLine: {'line': b"removing '/home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.775830] (trash_boy) StdoutLine: {'line': b'Copying ../../build/trash_boy/trash_boy.egg-info to /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy-0.0.0-py3.10.egg-info\n'}
+[2.777763] (trash_boy) StdoutLine: {'line': b'running install_scripts\n'}
+[2.820054] (-) TimerEvent: {}
+[2.876932] (trash_boy) StdoutLine: {'line': b'Installing object_follower script to /home/athiyan_sankar/trash_boy/install/trash_boy/lib/trash_boy\n'}
+[2.877674] (trash_boy) StdoutLine: {'line': b'Installing object_tracker script to /home/athiyan_sankar/trash_boy/install/trash_boy/lib/trash_boy\n'}
+[2.878279] (trash_boy) StdoutLine: {'line': b"writing list of installed files to '/home/athiyan_sankar/trash_boy/build/trash_boy/install.log'\n"}
+[2.920334] (-) TimerEvent: {}
+[2.944177] (trash_boy) CommandEnded: {'returncode': 0}
+[2.982154] (trash_boy) JobEnded: {'identifier': 'trash_boy', 'rc': 0}
+[2.983636] (-) EventReactorShutdown: {}

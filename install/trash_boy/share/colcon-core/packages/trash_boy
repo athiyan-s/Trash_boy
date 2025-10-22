@@ -1,0 +1,1 @@
+controller_manager:cv_bridge:gazebo_ros:gazebo_ros2_control:geometry_msgs:joint_state_broadcaster:joint_state_publisher:opencv2:python3-numpy:python3-opencv:rclpy:robot_state_publisher:ros2_control:ros2_controllers:rviz2:sensor_msgs:xacro

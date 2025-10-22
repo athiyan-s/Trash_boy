@@ -1,0 +1,6 @@
+source;share/trash_boy/hook/pythonpath.ps1
+source;share/trash_boy/hook/pythonpath.dsv
+source;share/trash_boy/hook/pythonpath.sh
+source;share/trash_boy/hook/ament_prefix_path.ps1
+source;share/trash_boy/hook/ament_prefix_path.dsv
+source;share/trash_boy/hook/ament_prefix_path.sh

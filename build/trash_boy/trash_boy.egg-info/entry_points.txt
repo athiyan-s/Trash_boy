@@ -1,0 +1,3 @@
+[console_scripts]
+object_follower = trash_boy.object_follower:main
+object_tracker = trash_boy.object_tracker:main

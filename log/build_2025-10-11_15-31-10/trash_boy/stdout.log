@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/trash_boy/trash_boy.egg-info
+writing ../../build/trash_boy/trash_boy.egg-info/PKG-INFO
+writing dependency_links to ../../build/trash_boy/trash_boy.egg-info/dependency_links.txt
+writing entry points to ../../build/trash_boy/trash_boy.egg-info/entry_points.txt
+writing requirements to ../../build/trash_boy/trash_boy.egg-info/requires.txt
+writing top-level names to ../../build/trash_boy/trash_boy.egg-info/top_level.txt
+writing manifest file '../../build/trash_boy/trash_boy.egg-info/SOURCES.txt'
+reading manifest file '../../build/trash_boy/trash_boy.egg-info/SOURCES.txt'
+writing manifest file '../../build/trash_boy/trash_boy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy
+copying trash_boy/object_tracker.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy
+copying trash_boy/mecanum_teleop.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy
+copying trash_boy/__init__.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy
+copying trash_boy/object_follower.py -> /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy
+running install
+running install_lib
+creating /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy
+copying /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy/object_tracker.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy
+copying /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy/mecanum_teleop.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy
+copying /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy/__init__.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy
+copying /home/athiyan_sankar/trash_boy/build/trash_boy/build/lib/trash_boy/object_follower.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy
+byte-compiling /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy/object_tracker.py to object_tracker.cpython-310.pyc
+byte-compiling /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy/mecanum_teleop.py to mecanum_teleop.cpython-310.pyc
+byte-compiling /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy/object_follower.py to object_follower.cpython-310.pyc
+running install_data
+creating /home/athiyan_sankar/trash_boy/install/trash_boy/share/ament_index/resource_index/packages
+copying resource/trash_boy -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/ament_index/resource_index/packages
+copying package.xml -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy
+creating /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/launch
+copying launch/finelaunch.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/launch
+copying launch/object_tracking.launch.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/launch
+copying launch/robot_gazebo.launch.py -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/launch
+creating /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/urdf
+copying urdf/model.urdf -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/urdf
+copying urdf/fine_model.urdf -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/urdf
+creating /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/config
+copying config/mecanum_controller.yaml -> /home/athiyan_sankar/trash_boy/install/trash_boy/share/trash_boy/config
+running install_egg_info
+Copying ../../build/trash_boy/trash_boy.egg-info to /home/athiyan_sankar/trash_boy/install/trash_boy/lib/python3.10/site-packages/trash_boy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing object_follower script to /home/athiyan_sankar/trash_boy/install/trash_boy/lib/trash_boy
+Installing object_tracker script to /home/athiyan_sankar/trash_boy/install/trash_boy/lib/trash_boy
+writing list of installed files to '/home/athiyan_sankar/trash_boy/build/trash_boy/install.log'
