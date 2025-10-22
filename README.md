@@ -28,20 +28,21 @@ PLANNED FEATURES (FUTURE DEVELOPMENT)
 
 INSTALLATION: 
 # Clone the repository
-git clone https://github.com/athiyan-s/Trash_boy.git
-cd trash_boy
+	git clone https://github.com/athiyan-s/Trash_boy.git
+	cd trash_boy
 
 # Build workspace
-colcon build
-source install/setup.bash
+	colcon build
+	source install/setup.bash
 
 RUNNING THE SIMULATION
 Launch the robot in Gazebo:
 
 	ros2 launch trash_boy robot_gazebo.launch.py
+	python3 src/trash_boy/trash_boy/mecanum_teleop.py
+
 
 Control the robot manually:
-#teleop
 	python3 src/trash_boy/trash_boy/mecanum_teleop.py
 	
 FILE STRUCTURE
