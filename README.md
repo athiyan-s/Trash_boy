@@ -39,11 +39,12 @@ RUNNING THE SIMULATION
 Launch the robot in Gazebo:
 
 	ros2 launch trash_boy robot_gazebo.launch.py
+	
+CONTROL THE ROBOT MANUALLY:
+	
 	python3 src/trash_boy/trash_boy/mecanum_teleop.py
+	
 
-
-Control the robot manually:
-	python3 src/trash_boy/trash_boy/mecanum_teleop.py
 	
 FILE STRUCTURE
 	trash_boy/
