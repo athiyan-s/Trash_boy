@@ -47,6 +47,7 @@ CONTROL THE ROBOT MANUALLY:
 
 	
 FILE STRUCTURE
+
 	trash_boy/
 	├── launch/                 # Launch files
 	├── urdf/                   # URDF/Xacro robot model
