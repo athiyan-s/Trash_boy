@@ -9,9 +9,7 @@ setup.py
 ../../build/trash_boy/trash_boy.egg-info/top_level.txt
 ../../build/trash_boy/trash_boy.egg-info/zip-safe
 config/mecanum_controller.yaml
-config/slam_toolbox.yaml
 launch/finelaunch.py
-launch/object_tracking.launch.py
 launch/robot_gazebo.launch.py
 resource/trash_boy
 test/test_copyright.py
@@ -19,7 +17,5 @@ test/test_flake8.py
 test/test_pep257.py
 trash_boy/__init__.py
 trash_boy/mecanum_teleop.py
-trash_boy/object_follower.py
-trash_boy/object_tracker.py
 urdf/fine_model.urdf
 urdf/model.urdf
